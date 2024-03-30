@@ -262,11 +262,11 @@
 
 @media screen and (max-width: 768px) {
   .hero__heading {
-    font-size: 60px;
+    font-size: 30px;
   }
 
   .hero__description {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 
