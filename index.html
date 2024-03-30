@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saleem Boss Driving School</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Saleem Boss</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Packages</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#Reviews" class="navbar__links" id="Reviews-page"
+              >Reviews</a
+            >
+          </li>
+            <li class="navbar__item">
+              <a href="#Deal" class="navbar__links" id="Deal-page"
+                >Today's Deal</a
+              >
+
+
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" onclick="openSignup()" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Leaside <span>Driving</span></h1>
+        <p class="hero__description"> School</p>
+
+        <img src="/images/woman.jpg" >
+        <button  onclick="downloadFile()" class="main__btn"><a   href="#">Download Course Material</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><img class="sidepic" src="/images/man.jpg"></div>
+        </div>
+        <div class="main__content">
+          <h1>I am Saleem Boss</h1>
+          <h2>Empower Student with Road Skills Safely</h2>
+          <p class="heading-animation">Schedule a call to learn more about Driving Lessons</p>
+          <button class="main__btn" onclick="makeCall()"><a href="#">Schedule Call</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1 class="main heading">OUR PACKAGES</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 1</h1>
+              
+              <h2>$1000</h2>
+              <p>Full Course</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details1">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                  Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 2</h1><br>
+              <H2>$500</H2>
+              <p>10 Lessons</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details2">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 3</h1>
+              <H2>$200</H2>
+              <p>2 Lessons</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details3">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                  Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 4</h1>
+              <H2>$100</H2>
+              <p>5 Lessons</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details4">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                  Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 3</h1>
+              <H2>$200</H2>
+              <p>2 Lessons</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details3">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                  Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      
+
+
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 3</h1>
+              <H2>$200</H2>
+              <p>2 Lessons</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details3">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                  Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 3</h1>
+              <H2>$200</H2>
+              <p>2 Lessons</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details3">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                  Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 3</h1>
+              <H2>$200</H2>
+              <p>2 Lessons</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details3">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                  Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 3</h1>
+              <H2>$200</H2>
+              <p>2 Lessons</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details3">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                  Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <div class="services__card-inner">
+            <div class="services__card-front">
+              <h1>PACKAGE 3</h1>
+              <H2>$200</H2>
+              <p>2 Lessons</p>
+            </div>
+            <div class="services__card-back">
+              <div class="details-card" id="details3">
+                <h1>Package Details</h1>
+                <p>Lorem ipsum d porro atque voluptatibus quas dicta laboriosam molestiae iusto unde?
+                  Ut voluptatibus molestias perferendis. nte blanderum illum ad, necessitatibus et mollitia sapiente iusto officia, fuga quod enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+    
+    
+      <div id="container" >
+        <div class="heading" id="Deal">
+          
+          <h1 class="heading-animation">FIND YOUR DEAL</h1>
+          <div class="input-container">
+              <input type="tel" id="phoneNumber" placeholder="Enter your phone number" pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number">
+          </div>
+          <button   id="submitButton"><a  >Find a Deal</a></button>
+          <div id="dealContainer"></div>
+      </div>
+      </div>
+      </div>
+
+<!-- Reviews -->
+<div class="review-container">
+<div class="container" id="Reviews">
+  <h1 class="main heading">REVIEWS</h1>
+  <div class="review-slider">
+    <button class="slider-arrow slider-arrow-left" onclick="moveSlide(-1)">&#10094;</button>
+    <div class="review-slide active">
+      <img class="review-image" src="/images/Rashid.jpg" alt="Review 1">
+      <div class="review-content">
+        <h1>Abdul Rashid</h1>
+        <p>I learned driving from Saleem Boss Driving School 50 years ago. Still, I am driving, even though I've gotten old. Saleem is a wonderful instructor, and I give him a perfect 10 out of 10 rating.."</p>
+      </div>
+    </div>
+    <div class="review-slide">
+      <img class="review-image" src="/images/Tariq.jpg" alt="Review 2">
+      <div class="review-content">
+        <h1>Tariq Imam</h1>
+        <p>At 65 years old, aging with a 6x speed, I learned driving from Saleem Boss, a world-class instructor. The lessons he taught me are unforgettable, and I am grateful for his expertise.</p>
+      </div>
+    </div>
+    <div class="review-slide">
+      <img class="review-image" src="/images/Qaiser.jpg" alt="Review 3">
+      <div class="review-content">
+        <h1>Qaiser Baig</h1>
+        <p>I reside in Calgary and learned driving when I was young. Now, at 60 years old, Saleem remains a highly skilled instructor. I wholeheartedly rate him 10 out of 10 for his exceptional teaching.</p>
+      </div>
+    </div>
+    <div class="review-slide">
+      <img class="review-image" src="/images/Saud.jpg" alt="Review 4">
+      <div class="review-content">
+        <h1>Saud Khan</h1>
+        <p>Saleem Boss is an exceptional driving instructor. I learned invaluable skills from him, enabling me to enjoy long drives, like summer fishing trips. My friend Imran also benefitted from Saleem's expertise, making him a highly recommended instructor.</p>
+      </div>
+    </div>
+    <button class="slider-arrow slider-arrow-right" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+  <div class="slider-controls">
+    <span class="slider-dot active" onclick="showSlide(0)"></span>
+    <span class="slider-dot" onclick="showSlide(1)"></span>
+    <span class="slider-dot" onclick="showSlide(2)"></span>
+    <span class="slider-dot" onclick="showSlide(3)"></span>
+  </div>
+</div>
+
+
+    <!-- Footer Section -->
+   
+    <footer>
+      <div class="footer-container">
+          <div class="footer-content">
+              <div class="video">
+                  <!-- Replace "your-video.mp4" with the actual path to your video file -->
+                  <video src="/images/video.mp4" autoplay loop muted></video>
+              </div>
+              <ul class="social-icons">
+                  <!-- Replace "#" with actual social media links -->
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+              <div class="address">
+                  <!-- Replace with your company address -->
+                  <p>65 Thorncliffe Park Drive</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+  <!-- Include Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- signup-->
+<div class="container">
+  <div class="signup-container" id="signupContainer">
+    <div class="signup-content">
+      <span class="close-btn" onclick="closeSignup()">&times;</span>
+      <h2>GET IN TOUCH</h2><br>
+     
+      <form action="https://api.web3forms.com/submit" method="POST" class="signup-form">
+        <input type="hidden" name="access_key" value="80fbe41b-f384-4f7f-a3a3-fbd33e73bfe2">
+        <input type="text" name="name" placeholder="Name" required><br>
+        <input type="email" name="email" id="email" placeholder="Email Address" required><br>
+        <input type="tel" name="phone" placeholder="Phone #" required><br>
+        <textarea name="message" placeholder="Message" rows="5"></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
