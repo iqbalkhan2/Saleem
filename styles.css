@@ -262,7 +262,7 @@
 
 @media screen and (max-width: 768px) {
   .hero__heading {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .hero__description {
@@ -437,9 +437,19 @@ transition: 1s ease-in-out;
     width: 100%;
     margin: 0 auto;
     height: 90%;
+    
   }
-
+.main__content h1 {
+  font-size: 25px;
+}  
+.main__content h2 {
+  font-size: 1rem;
+}
+  .main__content p {
+  margin-top: 12px;
   }
+  
+}
 
   .main__img--container {
     display: flex;
