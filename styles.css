@@ -298,13 +298,13 @@
 .main__content h1 {
   color: white;
   text-shadow: 5px 5px 8px #ee1212;
-  font-size: 50px;
+  font-size: 25px;
   letter-spacing: 10px;
 }
 
 
 .main__content h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   background: #ff8177; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -325,7 +325,7 @@
 
 .main__content p {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 700;
   
 }
@@ -439,15 +439,7 @@ transition: 1s ease-in-out;
     height: 90%;
     
   }
-.main__content h1 {
-  font-size: 25px;
-}  
-.main__content h2 {
-  font-size: 1rem;
-}
-  .main__content p {
-  margin-top: 12px;
-  }
+
   
 }
 
